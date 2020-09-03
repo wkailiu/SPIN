@@ -5,7 +5,7 @@ import glob
 import h5py
 import numpy as np
 import argparse
-from spacepy import pycdf
+# from spacepy import pycdf
 
 def h36m_extract(dataset_path, out_path, protocol=1, extract_img=False):
 
